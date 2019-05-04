@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+table{
+    border-style: solid ;
+    border-color: white;
+    width: 20%;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 60px;
+    text-align:center;
+    
+}
+
+
+
+button{
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+td{
+    border:white solid 1px;
+}
+
+.titoloFilm{
+    font-size: 50px;
+    color: rgb(64, 54, 68);
+    margin-left: 550px;
+    margin-top: -400px;
+}
+
+.didascalie{
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.sfondoDettagli{
+    background-color: black;
+}
+
+.link{
+    margin-left: 900px;
+    margin-top: 130px;
+}
+
+body{
+    background-color: blue;
+}

@@ -1,0 +1,24 @@
+<body>
+<div class="container" style="width:1000px;">
+<img style="width: 800px;height: 300px;" src="assets/img/titolo.png">
+
+  <br>
+  <br>
+  <br>
+
+  <table>
+    <tr>
+      <th class="fatShadow" style="text-align:center;display: none;">INDEX</th>
+    </tr>
+    <tr>
+      <th style="text-align:center; font-size: 40px;display: none;">{{i}}</th>
+      <td *ngFor="let a of contenitoreFilms; index as i">
+        <a routerLink="/dettagli-film" (click)="infoFilm(i); filmSalvato(filmScelto)">
+          <img style="width: 100px;height: 150px;" src="assets/img/{{a.title}}.jpg">{{a.title}}
+        </a>
+      </td>
+    </tr>
+  </table>
+
+</div>
+</body>

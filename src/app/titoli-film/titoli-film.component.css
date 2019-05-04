@@ -1,0 +1,50 @@
+table{
+    border-color: rgb(37, 30, 30);
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p{
+    font-size: 60px;
+    text-align:center;
+    
+}
+
+
+
+
+td{
+    padding: 10px;
+    width: 30px;
+    vertical-align: 0px;
+    border-radius:10%;
+    border: blue;
+    
+}
+
+.fatShadow{
+   font-size: 30px;
+}
+
+
+/*
+tr { display: block; float: left; }
+*/
+
+li{
+    display: inline;
+}
+
+td:hover {
+    background-color: rgb(216, 218, 104);
+}
+
+
+
+th,td{
+    width: 200px;
+    text-align: left;
+
+}
